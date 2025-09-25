@@ -28,6 +28,7 @@ if uploaded_file is not None:
 
             feedback = result["feedback"]
 
+          
             if "Error" not in feedback:
                 categories = []
                 scores = []
